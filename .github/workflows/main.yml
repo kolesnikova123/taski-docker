@@ -17,7 +17,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
     # В action setup-python@v4 передаем параметр - версию Python
-      width:
+      with:
         python-version: 3.12
     # Обновляем pip, устанавливаем flake8 и flake8-isort,
     # устанавливаем зависимости проекта
