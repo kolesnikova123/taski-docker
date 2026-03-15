@@ -159,7 +159,7 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
-          # key: ${{ secrets.SSH_KEY }}
+          key: ${{ secrets.SSH_KEY }}
           target: "taski"
       - name: Executing remote ssh command to deploy
         uses: appleboy/ssh-action@master
